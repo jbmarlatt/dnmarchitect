@@ -1123,7 +1123,7 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height:auto;
 }
 
 .img-rounded {
@@ -6360,7 +6360,10 @@ button.close {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   line-height: 1;
+  max-height:590px;
+  margin:auto;
 }
+
 @media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item {
     -webkit-transition: -webkit-transform .6s ease-in-out;
