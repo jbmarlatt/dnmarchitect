@@ -1113,8 +1113,15 @@ figure {
   margin: 0;
 }
 
-img{
-  vertical-align:middle;
+.footer-padding{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-content{
+  position: absolute;
+  top: 0;
+  left:0;
 }
 
 /* setions */
@@ -1145,6 +1152,10 @@ img{
   /*background-color:white;*/
   background: url('../images/AIARE_05 2.png') no-repeat fixed;
   background-size: cover;
+}
+
+img{
+  vertical-align:middle;
 }
 
 .img-responsive,
@@ -4131,6 +4142,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   z-index: 2;
   margin-left: -1px;
 }
+
 .nav {
   font-family: century gothic;
   padding-left: 0;
@@ -4429,6 +4441,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   top: 0;
   border-width: 0 0 1px;
 }
+
 .navbar-fixed-bottom {
   bottom: 0;
   margin-bottom: 0;
@@ -4500,11 +4513,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-nav {
   margin: 7.5px -15px;
 }
+
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 50px;
 }
+
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
